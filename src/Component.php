@@ -19,6 +19,7 @@ class Component extends AbstractComponent
     {
         return [
             \PoP\PostTags\Component::class,
+            \PoP\PostsWP\Component::class,
             \PoP\TagsWP\Component::class,
         ];
     }

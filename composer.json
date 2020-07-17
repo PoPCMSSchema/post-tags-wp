@@ -20,6 +20,7 @@
     "require": {
         "php" : "~7.1",
         "getpop/post-tags": "dev-master",
+        "getpop/posts-wp": "dev-master",
         "getpop/tags-wp": "dev-master",
         "getpop/migrate-post-tags-wp": "dev-master"
     },
