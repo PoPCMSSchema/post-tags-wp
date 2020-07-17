@@ -1,0 +1,4 @@
+services:
+    posttag_type_api:
+        class: \PoP\PostTagsWP\TypeAPIs\PostTagTypeAPI
+        public: true
