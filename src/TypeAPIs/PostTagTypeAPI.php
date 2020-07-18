@@ -18,8 +18,18 @@ class PostTagTypeAPI extends TagTypeAPI implements PostTagTypeAPIInterface
      * @param [type] $object
      * @return boolean
      */
-    public function isInstanceOfTagType($object): bool
+    public function isInstanceOfPostTagType($object): bool
     {
-        return $this->isInstanceOfTagType($object) && $object->name = 'post_tag'
+        return $this->isInstanceOfPostTagType($object) && $object->name = $this->getPostTagTaxonomyName();
+    }
+
+    /**
+     * The taxonomy name representing a post tag ("post_tag")
+     *
+     * @return string
+     */
+    public function getPostTagTaxonomyName(): string
+    {
+        return 'post_tag';
     }
 }
