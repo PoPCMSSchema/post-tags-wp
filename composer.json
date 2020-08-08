@@ -1,5 +1,5 @@
 {
-    "name": "getpop/post-tags-wp",
+    "name": "pop-schema/post-tags-wp",
     "type": "library",
     "description": "Implementation for WordPress of contracts from package \"Post Tags\"",
     "keywords": [
@@ -19,10 +19,10 @@
     "prefer-stable": true,
     "require": {
         "php": "~7.2",
-        "getpop/post-tags": "dev-master",
-        "getpop/posts-wp": "dev-master",
-        "getpop/tags-wp": "dev-master",
-        "getpop/migrate-post-tags-wp": "dev-master"
+        "pop-schema/post-tags": "dev-master",
+        "pop-schema/posts-wp": "dev-master",
+        "pop-schema/tags-wp": "dev-master",
+        "pop-schema/migrate-post-tags-wp": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": ">=8.5",
@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PoP\\PostTagsWP\\": "src"
+            "PoPSchema\\PostTagsWP\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PoP\\PostTagsWP\\": "tests"
+            "PoPSchema\\PostTagsWP\\": "tests"
         }
     },
     "scripts": {
