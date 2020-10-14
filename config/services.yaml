@@ -1,4 +1,4 @@
 services:
-    posttag_type_api:
+    PoPSchema\PostTags\TypeAPIs\PostTagTypeAPIInterface:
         class: \PoPSchema\PostTagsWP\TypeAPIs\PostTagTypeAPI
         public: true
